@@ -452,7 +452,7 @@ body {
   justify-content: space-between;
 
   z-index: 10;
- 
+  max-width: 370px;
   min-height: 200px;
   margin: 0 auto;
   background-color: #fff;
@@ -553,7 +553,7 @@ body {
 }
 
 .clear-cart {
- 
+ margin-left: 1rem;
   font-size: 0.8rem;
 }
 
