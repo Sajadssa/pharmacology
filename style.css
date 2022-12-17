@@ -452,7 +452,7 @@ body {
   justify-content: space-between;
 
   z-index: 10;
-
+ 
   min-height: 200px;
   margin: 0 auto;
   background-color: #fff;
@@ -543,6 +543,7 @@ body {
 
 .cart-footer {
   text-align: center;
+  font-size: .6rem;
 }
 
 .cart-footer span {
@@ -552,7 +553,7 @@ body {
 
 .clear-cart {
   margin-right: 10px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .cart-total {
@@ -758,13 +759,6 @@ align-content: center;
 
 
 }
-
-
-
-
-
-
-
 
 .footer__copy {
   margin-top: 1rem;
