@@ -512,7 +512,7 @@ body {
 
 .cart-item-desc h5 {
   margin-top: 10px;
-  color: var(--mainGrey);
+  color: rgba(255, 255, 255, 0.719);
 }
 
 .cart-item-controller {
