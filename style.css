@@ -542,6 +542,7 @@ body {
 }
 
 .cart-footer {
+
   text-align: center;
   font-size: .6rem;
 }
@@ -552,7 +553,7 @@ body {
 }
 
 .clear-cart {
-  margin-right: 10px;
+ 
   font-size: 0.8rem;
 }
 
