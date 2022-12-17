@@ -243,5 +243,14 @@
     <!-- import javaScript file in HTML -->
     <script type="module" src="index.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=sample"></script>
+    <noscript src="index.js">Your browser does not support JavaScript!</noscript>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+      <script>
+        $(document).ready(function () {
+          $("body").on("contextmenu", function (e) {
+            return false;
+          });
+        });
+      </script>
   </body>
 </html>
