@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Attari</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <!-- font iranYekan cdn -->
+  </head>
+
+  <body>
+     
+      <header class="header">
+        <nav class="nav">
+
+          <div class="toggler">
+            <div class="bar bar-one"></div>
+            <div class="bar bar-two"></div>
+            <div class="bar bar-three"></div>
+          </div>
+          <div class="logo">
+            <h1 class="AttNastaliq">عطاری</h1>
+    
+            <img src="./assets/images/attari_logo.jpg" alt="logo attari_logo" />
+          </div>
+          
+          <ul class="link"> <!--Container-->
+            
+            <li class="nav-item Home active" >
+              <a href="#Home"  >
+               خانه</a>
+              </li>
+            <li class="nav-item Products" >
+              <a href="#Products" >محصولات</a>
+            </li>
+            <li class="nav-item About" >
+              <a href="#About">درباره ما</a>
+            </li>
+            <li class="nav-item Contact" >
+              <a href="#Contact" >ارتباط با ما</a>
+            </li>
+          </ul>
+    
+          
+          <div class=" cartbasket">
+            <a href="#">
+              <div title="سبد خرید" class="visible">
+                <div class="cart-btn">
+                  <i class="fas fa-cart-plus"> </i>
+                  <div class="cart-items">0</div>
+    
+                </div>
+              </div>
+            </a>
+          </div>
+        </nav>
+      </header>
+      
+    
+    <!-------------------header-------------------  -->
+    <!-- End of header -->
+    <!------------------------ main section --------------------------------->
+    <main class="main" id="Home">
+      <!----------------- banner--------------------------------- -->
+      <div class="banner">
+        <img src="./assets/images/banner.jpg" alt="banner" />
+        <h3 class="main h3">عطاری</h3>
+      </div>
+    </main>
+    <!-- products -->
+    <section class="products" id="Products">
+      <div class="section-title">
+        <h2>محصولات</h2>
+      </div>
+      <!-- single product -->
+      <div class="products-center">
+        <!-- <div class="product">
+              <div class="img-container">
+                <img src="./assets/images/att_darchin1.jpg" alt="image" class="product-img" />
+              </div>
+              <div class="product-desc">
+                <p class="product-price">قیمت:220 هزارتومان</p>
+                <p class="product-title">عنوان کالا: دارچین</p>
+              </div>
+              <button class="btn add-to-cart ">
+              
+               اضافه کردن به سبد خرید
+              </button>
+            </div> -->
+    
+    </section>
+    <!-- products -->
+    <!-- Cart section -->
+    <section class="cart-center" >
+      <div class="backdrop"></div>
+    
+      <!-- <button class="btn show-modal">show modal</button> -->
+      <div class="cart">
+        <h3 class="cart-title">سبد خرید شما</h3>
+        <div class="cart-status">سبد خرید شما خالی است</div>
+        <div class="cart-content">
+          <!-- single item -->
+          <!-- <div class="cart-item">
+                <img class="cart-item-img" src="./images/product-2.jpeg" />
+                <div class="cart-item-desc">
+                  <h4>product title</h4>
+                  <h5>$ 12.99</h5>
+                </div>
+                <div class="cart-item-controller">
+                  <i class="fas fa-chevron-up"></i>
+                  <p>1</p>
+                  <i class="fas fa-chevron-down"></i>
+                  <i class="fas fa-trash remove-item"></i>
+                </div>
+              </div> -->
+        </div>
+        <div class="cart-footer">
+          <span class="cart-total"> </span>
+          <button class="btn clear-cart"> حذف سبد خرید</button>
+          <button class="btn cart-item-confirm">تایید</button>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="About">
+      <div class="title">درباره عطاری</div>
+      <div class="description">
+        <div class="about_image">
+          <img src="./assets/images/att_about.jpg" alt="">
+        </div>
+        <p class="explain">
+
+          این فروشگاه آنلاین با نگاهی تازه که تلفیقی از علم و سنت بوده پا به بازار گیاهان دارویی و فروش آن نهاده است. از آنجا که
+          ما دانشی چند هزار ساله از پیشینیان در این زمینه داشته ایم و لذا امروزه و با استفاده از آخرین تحقیقاتی صورت گرفته در سطح
+          جهان در زمینه گیاهان دارویی تصمیم به فروش آن گرفته ایم.
+          سایت عطاری افتخار این را دارد که جزء اولین سایت های فروش تخصصی گیاهان دارویی به صورت آنلاین بوده و شما عزیزان از سراسر
+          نقاط کشور می توانید محصول مورد نظر خود را به صورت تک یا عمده سفارش دهید و محصول مورد نظر خود را با بهترین کیفیت و
+          مرغوبترین بسته بندی را دریافت نمایید
+        </p>
+      </div>
+      
+
+
+
+
+
+    </section>
+    <!-- contact us--------------- -->
+    <section class="contact" id="Contact">
+      <h2 class="contact_title">تماس با ما</h2>
+      <div class="contact_main">
+        <div class="contact-form-info">
+          <form  action="#" class="form">
+    <label for="name"> نام ونام خانوادگی:
+      <input type="text" placeholder="نام و نام خانوادگی راوارد کنید">
+    </label>
+    <label for="name"> نشانی الکترونیکی:
+      <input type="email" placeholder="xyz@mail.com">
+    </label>
+    <div class="buttons">
+      
+      <button class="btn"> ثبت اطلاعات</button>
+      <button class="btn"> انصراف</button>
+    </div>
+    
+          </form>
+        </div>
+          <div class="contact-info">
+              <div class="contact__information">
+                <i class="uil uil-map-marker contact__icon"></i>
+                <div>
+                  <span ><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d81403.17626026308!2d57.25326717400074!3d37.47460186918441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x3f709663dbc56c8f%3A0xc35fb3c139726c74!2z2KjYrNmG2YjYsdiv2IwgTm9ydGggS2hvcmFzYW4gUHJvdmluY2UsIElyYW4!3m2!1d37.474486299999995!2d57.323307899999996!5e1!3m2!1sen!2sus!4v1671229481682!5m2!1sen!2sus"
+                   style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="map"></iframe></span>
+                </div>
+              </div>
+            <div class="phone-email">
+             
+               <p>09151234567
+
+                 <i class="fas fa-phone-alt"></i>
+               </p> 
+               <p>
+                Attari2022@gmail.com
+                <i class="fas fa-envelope-open"></i>
+               </p> 
+               <p>
+
+                 IRAN-Bojnoord
+                 <i class="fas fa-location-arrow"></i>
+               </p>
+  
+            </div>
+         
+  
+        </div>
+
+      </div>
+
+       
+
+    </section>
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer_container">
+          <div>
+            <h1 class="footer__title">عطاری</h1>
+            <span class="footer__subtitle">عرضه کننده دمنوش های خوراکی</span>
+          </div>
+    
+          <!-- ul.footer__links>li>a.footer__link -->
+          <ul class="footer__links">
+            <li id="Home">
+              <a href="#Home"  class="footer__link">خانه</a>
+            </li>
+            <li id="Products" >
+              <a href="#Products" class="footer__link">محصولات</a>
+            </li>
+            <li id="About">
+              <a href="#About"  class="footer__link">درباره ما</a>
+            </li>
+            <li id="Contact">
+              <a href="#Contact"  class="footer__link">تماس با</a>
+            </li>
+          </ul>
+           
+        </div>
+        <p class="footer__copy"> Arrari. All right reserved&#169</p>
+      </div>
+    </footer>
+    <!-- import javaScript file in HTML -->
+    <script type="module" src="index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=sample"></script>
+  </body>
+</html>
